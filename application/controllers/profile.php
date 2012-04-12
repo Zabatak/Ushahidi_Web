@@ -58,10 +58,11 @@ class Profile_Controller extends Main_Controller {
 		$username = Router::$arguments[0];
 
 		// We won't allow profiles to be public if the username is an email address
-		if (valid::email($username))
+		//FIX ABBAS
+		/*if (valid::email($username))
 		{
 			url::redirect('profile');
-		}
+		}*/
 
 		$user = User_Model::get_user_by_username($username);
 

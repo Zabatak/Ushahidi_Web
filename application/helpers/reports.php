@@ -235,7 +235,9 @@ class reports_Core {
 		}
 		
 		// Check if the user id has been specified
-		if (isset($_SESSION['auth_user']))
+		// if new incident or user_id is null ABBAS
+		if ((!$incident->loaded OR $incident->user_id == NULL) 
+			  AND isset($_SESSION['auth_user']))
 		{
 			$incident->user_id = $_SESSION['auth_user']->id;
 		}
@@ -570,7 +572,7 @@ class reports_Core {
 		$person = new Incident_Person_Model();
 		$person->incident_id = $incident->id;
 		$person->person_first = $post->person_first;
-		$person->person_last = $post->person_last;
+		$person->person_last = '';//$post->person_last;
 		$person->person_email = $post->person_email;
 		$person->person_date = date("Y-m-d H:i:s",time());
 		$person->save();		
