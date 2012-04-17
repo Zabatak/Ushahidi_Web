@@ -3,7 +3,7 @@
 	url = https://github.com/WordPress/WordPress.git
 [submodule "themes/zabatak"]
 	path = themes/zabatak
-	url = git@github.com:Zabatak/Ushahidi_Theme.git
+	url = http://github.com/Zabatak/Ushahidi_Theme.git
 [submodule "application/i18n/Ushahidi-Localizations"]
 	path = application/i18n/Ushahidi-Localizations
 	url = https://github.com/ushahidi/Ushahidi-Localizations.git
