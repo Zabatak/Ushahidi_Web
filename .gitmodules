@@ -13,3 +13,6 @@
 [submodule "plugins/share-it"]
 	path = plugins/share-it
 	url = https://abbasadel@github.com/Zabatak/share-it.git
+[submodule "plugins/mobile"]
+	path = plugins/mobile
+	url = https://github.com/ushahidi/ushahidi-plugins-mobile.git
