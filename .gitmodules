@@ -7,3 +7,6 @@
 [submodule "application/i18n/Ushahidi-Localizations"]
 	path = application/i18n/Ushahidi-Localizations
 	url = https://github.com/ushahidi/Ushahidi-Localizations.git
+[submodule "plugins/coordinator"]
+	path = plugins/coordinator
+	url = https://abbasadel@github.com/Zabatak/coordinator.git
