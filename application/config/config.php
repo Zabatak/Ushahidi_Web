@@ -28,6 +28,18 @@ $config['index_page'] = '';
 $config['enable_auto_upgrader'] = TRUE;
 
 /**
+ * The admin panel shows a warning if you upgrade your deployment
+ * code but not the database. Setting this to false disabled that
+ * warning.
+ */
+$config['enable_ver_sync_warning'] = TRUE;
+
+/**
+ * Include Google Analytics (if set) on admin panel
+ */
+$config['google_analytics_in_admin'] = TRUE;
+
+/**
  * Fake file extension that will be added to all generated URLs. Example: .html
  */
 $config['url_suffix'] = '';
