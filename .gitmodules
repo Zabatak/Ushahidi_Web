@@ -10,3 +10,6 @@
 [submodule "plugins/coordinator"]
 	path = plugins/coordinator
 	url = https://abbasadel@github.com/Zabatak/coordinator.git
+[submodule "plugins/share-it"]
+	path = plugins/share-it
+	url = https://abbasadel@github.com/Zabatak/share-it.git
