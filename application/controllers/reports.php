@@ -296,7 +296,9 @@ class Reports_Controller extends Main_Controller {
 			'person_last' => '',
 			'person_email' => '',
 			'form_id'	  => '',
-			'custom_field' => array()
+			'custom_field' => array(),
+			    //ZABATAL
+                    'person_phone' => '',
 		);
 
 		// Copy the form as errors, so the errors will be stored with keys corresponding to the form field names
