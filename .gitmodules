@@ -16,3 +16,6 @@
 [submodule "plugins/mobile"]
 	path = plugins/mobile
 	url = https://github.com/ushahidi/ushahidi-plugins-mobile.git
+[submodule "plugins/tatelecom"]
+	path = plugins/tatelecom
+	url = https://github.com/Zabatak/TA-Telecom.git
