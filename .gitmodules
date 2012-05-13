@@ -7,15 +7,6 @@
 [submodule "application/i18n/Ushahidi-Localizations"]
 	path = application/i18n/Ushahidi-Localizations
 	url = https://github.com/ushahidi/Ushahidi-Localizations.git
-[submodule "plugins/coordinator"]
-	path = plugins/coordinator
-	url = https://github.com/Zabatak/coordinator.git
-[submodule "plugins/share-it"]
-	path = plugins/share-it
-	url = https://github.com/Zabatak/share-it.git
 [submodule "plugins/mobile"]
 	path = plugins/mobile
 	url = https://github.com/ushahidi/ushahidi-plugins-mobile.git
-[submodule "plugins/tatelecom"]
-	path = plugins/tatelecom
-	url = https://github.com/Zabatak/TA-Telecom.git
