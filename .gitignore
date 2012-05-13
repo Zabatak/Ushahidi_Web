@@ -9,3 +9,10 @@ application/config/database.php
 application/config/config.php
 tests/phpunit/phpunit.xml
 nbproject
+
+#plugins
+plugins/tatelecom
+plugins/coordinator
+plugins/shareit
+plugins/case
+plugins/campaign
